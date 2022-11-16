@@ -53,3 +53,30 @@ body{
     border: 1px solid #8B2B00;
     color: white;
 }
+
+/*Fondo de lateral izquiedo*/
+.offcanvas{
+    background-color: rgba(30, 30, 228, 0.813);
+}
+
+.pay-btn{
+    background-color: #FFB114;
+    border: 1px solid #543800;
+    color: rgb(0, 0, 0);
+}
+
+.payment-card{
+    display: none;
+}
+
+.transfer-card{
+    display: none;
+}
+
+.deposit-card{
+    display: none;
+}
+
+.withdraw-card{
+    display: none;
+}
