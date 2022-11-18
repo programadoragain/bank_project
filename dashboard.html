@@ -174,11 +174,45 @@
     <!--Cuerpo completo Offcanvas derecho// Toda la pagina incluida la opacidad-->
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+            <h5 class="offcanvas-title text-white" id="offcanvasRightLabel">Agregar cuenta</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
+
         <div class="offcanvas-body">
-            ...
+            <!--Cuerpo offcanvas derecho-->
+            <div class="card">          
+              <div class="card-body">
+                
+                  <form action="" class="add-account-form">
+                      <div class="form-group mb-3">
+                          <label for="account_name">Nombre de cuenta</label>
+                          <input type="text" name="account_name" class="form-control" placeholder="Ingrese el nombre de cuenta">
+                      </div>
+
+                      <div class="form-group mb-3">
+                          <label for="account_name">Tipo de cuenta</label>
+                          <select name="account_type" class="form-control" id="">
+                              <option value="">- Seleccionar tipo de cuenta -</option>
+                              <option value="">Ahorro</option>
+                              <option value="">Negocio</option>
+                              <option value="">Cheque</option>
+                          </select>
+                      </div>
+                      <!--
+                      <div class="form-group mb-3">
+                          <label for="account_name"></label>
+                          <input type="text" name="account_name" class="form-control" placeholder="">
+                      </div>
+                      -->
+
+                      <div class="form-group">
+                          <button id="" class="btn btn-primary shadow" type="button">
+                            <i class="fa fa-credit-card"></i> Agregar cuenta
+                          </button>
+                      </div>
+                  </form>  
+              </div>
+            </div>
         </div>
     </div>
 
